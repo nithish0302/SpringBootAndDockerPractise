@@ -84,6 +84,7 @@
     </dependencyManagement>
 
     <build>
+        <finalName>Coupon</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

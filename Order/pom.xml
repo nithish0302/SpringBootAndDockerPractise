@@ -87,6 +87,7 @@
     </dependencyManagement>
 
     <build>
+        <finalName>Order</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
