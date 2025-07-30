@@ -32,6 +32,6 @@ RUN chown -R appuser:appgroup /iceCream
 
 USER appuser
 
-EXPOSE 8088
+EXPOSE 8000
 
 ENTRYPOINT ["java", "-jar", "app.jar"]

@@ -32,6 +32,6 @@ RUN chown -R appuser:appgroup /Coupon
 
 USER appuser
 
-EXPOSE 8088
+EXPOSE 8084
 
 ENTRYPOINT ["java", "-jar", "app.jar"]
